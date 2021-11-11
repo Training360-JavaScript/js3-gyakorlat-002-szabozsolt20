@@ -1,0 +1,23 @@
+{
+  "name": "str2-js3-practice-002",
+  "version": "1.0.0",
+  "description": "- Az `app.js` fájlban dolgozz!\r - Ne felejtsd el az `npm i` parancsot kiadni!\r - Teszteléshez az `npm test` parancsot használhatod.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test01 && npm run test02",
+    "test01": "jest __tests__/test01.spec.js --forceExit --detectOpenHandles",
+    "test02": "jest __tests__/test02.spec.js --forceExit --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.4",
+    "jest-puppeteer": "^6.0.0",
+    "puppeteer": "^10.4.0"
+  },
+  "dependencies": {
+    "@types/jest": "^27.0.2",
+    "eslint-plugin-jest": "^25.2.1",
+    "jest": "^27.2.5"
+  }
+}
